@@ -1,0 +1,309 @@
+/* ==================================== Start Header Style ============================================ */
+
+header
+{
+    position: fixed;
+    top: 0;  
+    z-index: 99999;  
+    width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);  
+    padding: 10px 0;
+}
+.fixed_header {
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+    -moz-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+    box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+}
+/* ==================================== End Header Style ============================================ */
+/* =================================== Start Banner Style ========================================= */
+#banner
+{
+   padding-top: 6rem;
+}
+#banner img
+{
+    max-height: 800px;
+}
+/* =================================== End Banner Style ========================================= */
+/* ==================================== Start How can we help section ============================ */
+#howcan
+{
+    padding: 3rem 0;
+background: #f2f2f2;
+}
+.sectiontitle
+{
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.sectiontitle:after {
+    content:'';
+    position:absolute;
+    left:0; right:0;
+    top:100%;
+    margin:10px auto;
+    width:100px;
+    height:6px;
+    background:#000;
+}
+.subtitle
+{
+    text-align: center;
+margin-top: 3rem;
+font-size: 20px;
+letter-spacing: 0.5px;
+}
+.sectionalign
+{
+    margin-top: 2rem;
+}
+.iconstyle
+{
+    text-align: center;
+}
+.iconstyle i{
+    font-size: 4rem;    
+}
+.color1
+{
+    color: #fc4545;
+}
+.color2
+{
+    color: #056e8f;
+}
+.color3
+{
+    color: #2f7a0e;
+}
+.iconbox_title
+{
+    font-weight: bold;
+    font-size:18px;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
+    margin-top: 1rem;
+}
+.iconbox_desc
+{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    text-align: center;
+    color: #000;
+    margin-top: 1rem;
+}
+.learnbtn
+{
+    text-align: center;
+    margin-top: 2rem;
+}
+.learnbtn a
+{    
+    padding: 0.6rem 2rem;
+    font-size:18px;
+    letter-spacing: 1px;
+}
+.btncolor1 a
+{
+    color: #fc4545;
+    border:2px solid #fc4545;
+}
+.btncolor1 a:hover
+{
+    color: #fff;
+    background-color: #fc4545;
+}
+.btncolor2 a
+{
+    color: #056e8f;
+    border:2px solid #056e8f;
+}
+.btncolor2 a:hover
+{
+    color: #fff;
+    background-color: #056e8f;
+}
+.btncolor3 a
+{
+    color: #2f7a0e;
+    border:2px solid #2f7a0e;
+}
+.btncolor3 a:hover
+{
+    color: #fff;
+    background-color: #2f7a0e;
+}
+a:hover
+{
+    text-decoration: none;
+}
+/* ===================================== End How can we help section ============================= */
+
+/* ===================================== Start More Case Studies Section ============================== */
+#morecase
+{
+    padding: 6rem 0;
+}
+.morecase_desc
+{
+    text-align: center;
+    padding: 1rem 5rem;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 
+}
+.btnseemore
+{
+    margin-top: 3rem;
+}
+/* ===================================== End More Case Studies Section ============================== */
+/* ========================================= Start Carosel Section ================================== */
+#carosel
+{
+    padding: 3rem 0;
+    background: #f2f2f2;
+}
+#carosel .carousel-caption {
+    position: absolute;
+right: 15%;
+top: 20px;
+left: 5%;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #fff;
+text-align: center;
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#carosel .carousel-caption p
+{
+    font-size: 2rem;
+
+letter-spacing: 0.5px;
+
+color: #fff;
+}
+/* ========================================= End Carosel Section ================================== */
+
+/* ========================================= Start Footer top Section ================================== */
+#footertop
+{
+    padding: 5rem 0;
+    background: #e74c3c;
+}
+#footertop h3
+{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+.findmore_btn
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+.findmore_btn a
+{
+    color:#fff;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    border:2px solid #fff;
+    padding: 0.5rem 1.5rem;
+}
+/* ========================================= End Footer top Section ================================== */
+
+/* ========================================= Start Footer Section ================================== */
+#footer
+{
+    padding: 1rem 0;
+    background: #333;
+}
+#footer h3
+{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.footer_txt
+{
+    text-align: center;
+    font-size:14px;
+    color:#fff;
+    letter-spacing: 0.4px;
+}
+/* ========================================= End Footer Section ================================== */
+
+/* =================================== Start Responsive Styles =================================== */
+@media (min-width:320px) and (max-width:575px)
+{
+    /* header
+    {
+        position: relative;
+    } */
+    .sectiontitle
+    {
+        font-size: 1.5rem;
+    }
+    .sectiontitle::after
+    {
+        width: 60px;
+height: 3px
+    }
+    .subtitle
+    {
+        font-size: 16px;
+    }
+    .learnbtn
+    {
+        margin-bottom: 2rem;
+    }
+    .learnbtn a {
+        padding: 0.4rem 1.5rem;
+        font-size: 16px
+    }
+    .morecase_desc
+    {
+        padding: 1rem 0rem;
+        font-size: 16px;
+    }
+    #carosel .carousel-caption {
+        position: absolute;
+        right: 0;
+        top: 20px;
+        left: 0;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #footertop h3
+    {
+        font-size: 20px;
+    }
+    .findmore_btn a {
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        border: 2px solid #fff;
+        padding: 0.5rem 1rem;
+    }
+}
+/* =================================== End Responsive Styles ===================================== */
