@@ -17,6 +17,11 @@ header
     -moz-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
     box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
 }
+.navbar-light .navbar-nav .nav-item:last-child .nav-link
+{
+    background: #e74c3c;
+    color: #fff;
+}
 /* ==================================== End Header Style ============================================ */
 /* =================================== Start Banner Style ========================================= */
 #banner
@@ -307,3 +312,28 @@ height: 3px
     }
 }
 /* =================================== End Responsive Styles ===================================== */
+
+/* ================================== Start Landing Style ======================================== */
+.landingsection_style
+{
+   padding: 2rem 1rem;
+   display: flex;
+   align-items: center;
+}
+.landingfulltop_section h5
+{
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.5px;
+    margin-bottom: 2rem;
+}
+.landingfulltop_section h2
+{
+    font-size: 3rem;
+letter-spacing: 1px;
+text-align: center;
+line-height: 100%;
+font-weight: 500;
+margin-bottom: 3rem;
+}
+/* ================================== End Landing Style ======================================== */

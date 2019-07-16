@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grow 10x</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap-4-hover-navbar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ================================= Start Landing Section ================================== -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 landingsection_style ">
+                <div class="landingfulltop_section col-md-12">
+                        <h5>EXCLUSIVE Free Training From Sam Ovens:</h5>
+                        <h2>"How I get 30-50 high ticket coaching and consulting clients every single month with predictability down to the dollar day"</h2>
+                </div>
+                           
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- ================================= End Landing Section ================================== -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-4-hover-navbar.js"></script>
+    <script>
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            //console.log(scroll);
+            if (scroll >= 50) {
+
+                //console.log('a');
+                $("header").addClass("fixed_header");
+            } else {
+                //console.log('a');
+                $("header").removeClass("fixed_header");
+            }
+        });
+
+        $('#bs4-slide-carousel').carousel({
+  interval: 13000
+})
+    </script>
+</body>
+
+</html>
