@@ -1,309 +1,455 @@
 /* ==================================== Start Header Style ============================================ */
 
-header
-{
-    position: fixed;
-    top: 0;  
-    z-index: 99999;  
-    width: 100%;
-    background-color: #fff;
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
-    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
-    box-shadow: 0 1px 0 rgba(0,0,0,.1);  
-    padding: 10px 0;
+header {
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	width: 100%;
+	background-color: #2d3f50;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 0 rgba(0,0,0,.1);
+	padding: 10px 0;
 }
 .fixed_header {
-    -webkit-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
-    -moz-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
-    box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+	-moz-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+	box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+}
+.navbar-light .navbar-nav .nav-item:last-child .nav-link {
+	background: #1cbc9c;
+	color: #fff;
 }
 /* ==================================== End Header Style ============================================ */
 /* =================================== Start Banner Style ========================================= */
-#banner
-{
-   padding-top: 6rem;
+#banner {
+	padding-top: 6rem;
 }
-#banner img
-{
-    max-height: 800px;
+#banner img {
+	max-height: 800px;
 }
 /* =================================== End Banner Style ========================================= */
 /* ==================================== Start How can we help section ============================ */
-#howcan
-{
-    padding: 3rem 0;
-background: #f2f2f2;
+#howcan {
+	padding: 3rem 0;
+	background: #28323b;
 }
-.sectiontitle
-{
-    text-align: center;
-    font-size: 2.5rem;
-    letter-spacing: 1px;
-    color: #000;
-    font-family: 'Roboto', sans-serif;
+.sectiontitle {
+	text-align: center;
+	font-size: 2.5rem;
+	letter-spacing: 1px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
 }
 .sectiontitle:after {
-    content:'';
-    position:absolute;
-    left:0; right:0;
-    top:100%;
-    margin:10px auto;
-    width:100px;
-    height:6px;
-    background:#000;
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	margin: 10px auto;
+	width: 100px;
+	height: 6px;
+	background: #e9d98a;
 }
-.subtitle
-{
-    text-align: center;
-margin-top: 3rem;
-font-size: 20px;
-letter-spacing: 0.5px;
+.subtitle {
+	text-align: center;
+	margin-top: 3rem;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	color: #fff;
 }
-.sectionalign
-{
-    margin-top: 2rem;
+.sectionalign {
+	margin-top: 2rem;
 }
-.iconstyle
-{
-    text-align: center;
+.iconstyle {
+	text-align: center;
 }
-.iconstyle i{
-    font-size: 4rem;    
+.iconstyle i {
+	font-size: 4rem;
 }
-.color1
-{
-    color: #fc4545;
+.color1 {
+	color: #fc4545;
 }
-.color2
-{
-    color: #056e8f;
+.color2 {
+	color: #056e8f;
 }
-.color3
-{
-    color: #2f7a0e;
+.color3 {
+	color: #2f7a0e;
 }
-.iconbox_title
-{
-    font-weight: bold;
-    font-size:18px;
-    letter-spacing: 1px;
-    color: #000;
-    text-align: center;
-    margin-top: 1rem;
+.iconbox_title {
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #000;
+	text-align: center;
+	margin-top: 1rem;
 }
-.iconbox_desc
-{
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    line-height: 25px;
-    text-align: center;
-    color: #000;
-    margin-top: 1rem;
+.iconbox_desc {
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 25px;
+	text-align: center;
+	color: #000;
+	margin-top: 1rem;
+	padding: 0 1em;
 }
-.learnbtn
-{
-    text-align: center;
-    margin-top: 2rem;
+.learnbtn {
+	text-align: center;
+	margin-top: 2rem;
 }
-.learnbtn a
-{    
-    padding: 0.6rem 2rem;
-    font-size:18px;
-    letter-spacing: 1px;
+.learnbtn a {
+	padding: 0.6rem 2rem;
+	font-size: 18px;
+	letter-spacing: 1px;
 }
-.btncolor1 a
-{
-    color: #fc4545;
-    border:2px solid #fc4545;
+.btncolor1 a {
+	color: #fff;
+	border-left: 4px solid #fff;
+	background: #2d3f50;
 }
-.btncolor1 a:hover
-{
-    color: #fff;
-    background-color: #fc4545;
+.btncolor1 a:hover {
+	color: #fff;
+	background-color: #364e65;
+	transition: 0.5s ease;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
 }
-.btncolor2 a
-{
-    color: #056e8f;
-    border:2px solid #056e8f;
+.btncolor2 a {
+	color: #056e8f;
+	border: 2px solid #056e8f;
 }
-.btncolor2 a:hover
-{
-    color: #fff;
-    background-color: #056e8f;
+.btncolor2 a:hover {
+	color: #fff;
+	background-color: #056e8f;
 }
-.btncolor3 a
-{
-    color: #2f7a0e;
-    border:2px solid #2f7a0e;
+.btncolor3 a {
+	color: #2f7a0e;
+	border: 2px solid #2f7a0e;
 }
-.btncolor3 a:hover
-{
-    color: #fff;
-    background-color: #2f7a0e;
+.btncolor3 a:hover {
+	color: #fff;
+	background-color: #2f7a0e;
 }
-a:hover
-{
-    text-decoration: none;
+a:hover {
+	text-decoration: none;
 }
 /* ===================================== End How can we help section ============================= */
 
 /* ===================================== Start More Case Studies Section ============================== */
-#morecase
-{
-    padding: 6rem 0;
+#morecase {
+	padding: 6rem 0;
+	background-color: #1cbc9c;
 }
-.morecase_desc
-{
-    text-align: center;
-    padding: 1rem 5rem;
-    font-size: 18px;
-    color: #000;
-    letter-spacing: 1px;
-    line-height: 
+.morecase_desc {
+	text-align: center;
+	padding: 1rem 5rem;
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 1px;
 }
-.btnseemore
-{
-    margin-top: 3rem;
+.btnseemore {
+	margin-top: 3rem;
 }
 /* ===================================== End More Case Studies Section ============================== */
 /* ========================================= Start Carosel Section ================================== */
-#carosel
-{
-    padding: 3rem 0;
-    background: #f2f2f2;
+#carosel {
+	padding: 3rem 0;
+	background: #f2f2f2;
 }
 #carosel .carousel-caption {
-    position: absolute;
-right: 15%;
-top: 20px;
-left: 5%;
-z-index: 10;
-padding-top: 20px;
-padding-bottom: 20px;
-color: #fff;
-text-align: center;
-width: 60%;
-display: flex;
-justify-content: center;
-align-items: center;
+	position: absolute;
+	right: 15%;
+	top: 20px;
+	left: 5%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-#carosel .carousel-caption p
-{
-    font-size: 2rem;
-
-letter-spacing: 0.5px;
-
-color: #fff;
+#carosel .carousel-caption p {
+	font-size: 2rem;
+	letter-spacing: 0.5px;
+	color: #fff;
 }
 /* ========================================= End Carosel Section ================================== */
 
 /* ========================================= Start Footer top Section ================================== */
-#footertop
-{
-    padding: 5rem 0;
-    background: #e74c3c;
+#footertop {
+	padding: 5rem 0;
+	background: #e74c3c;
 }
-#footertop h3
-{
-    text-align: center;
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 28px;
+#footertop h3 {
+	text-align: center;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 28px;
 }
-.findmore_btn
-{
-    margin-top: 2rem;
-    text-align: center;
+.findmore_btn {
+	margin-top: 2rem;
+	text-align: center;
 }
-.findmore_btn a
-{
-    color:#fff;
-    font-size: 20px;
-    letter-spacing: 0.5px;
-    border:2px solid #fff;
-    padding: 0.5rem 1.5rem;
+.findmore_btn a {
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	border: 2px solid #fff;
+	padding: 0.5rem 1.5rem;
 }
 /* ========================================= End Footer top Section ================================== */
 
 /* ========================================= Start Footer Section ================================== */
-#footer
-{
-    padding: 1rem 0;
-    background: #333;
+#footer {
+	padding: 1rem 0;
+	background: #333;
 }
-#footer h3
-{
-    font-size: 20px;
-    color: #fff;
-    letter-spacing: 1px;
+#footer h3 {
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 1px;
 }
-.footer_txt
-{
-    text-align: center;
-    font-size:14px;
-    color:#fff;
-    letter-spacing: 0.4px;
+.footer_txt {
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 0.4px;
 }
+
 /* ========================================= End Footer Section ================================== */
 
 /* =================================== Start Responsive Styles =================================== */
-@media (min-width:320px) and (max-width:575px)
-{
-    /* header
+@media (min-width:320px) and (max-width:575px) {
+/* header
     {
         position: relative;
     } */
-    .sectiontitle
-    {
-        font-size: 1.5rem;
-    }
-    .sectiontitle::after
-    {
-        width: 60px;
-height: 3px
-    }
-    .subtitle
-    {
-        font-size: 16px;
-    }
-    .learnbtn
-    {
-        margin-bottom: 2rem;
-    }
-    .learnbtn a {
-        padding: 0.4rem 1.5rem;
-        font-size: 16px
-    }
-    .morecase_desc
-    {
-        padding: 1rem 0rem;
-        font-size: 16px;
-    }
-    #carosel .carousel-caption {
-        position: absolute;
-        right: 0;
-        top: 20px;
-        left: 0;
-        z-index: 10;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: #fff;
-        text-align: center;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #footertop h3
-    {
-        font-size: 20px;
-    }
-    .findmore_btn a {
-        color: #fff;
-        font-size: 18px;
-        letter-spacing: 0.5px;
-        border: 2px solid #fff;
-        padding: 0.5rem 1rem;
-    }
+.sectiontitle {
+	font-size: 1.5rem;
+}
+.sectiontitle::after {
+	width: 60px;
+	height: 3px
+}
+.subtitle {
+	font-size: 16px;
+}
+.learnbtn {
+	margin-bottom: 2rem;
+}
+.learnbtn a {
+	padding: 0.4rem 1.5rem;
+	font-size: 16px
+}
+.morecase_desc {
+	padding: 1rem 0rem;
+	font-size: 16px;
+}
+#carosel .carousel-caption {
+	position: absolute;
+	right: 0;
+	top: 20px;
+	left: 0;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#footertop h3 {
+	font-size: 20px;
+}
+.findmore_btn a {
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	border: 2px solid #fff;
+	padding: 0.5rem 1rem;
+}
 }
 /* =================================== End Responsive Styles ===================================== */
+
+
+/* ================================== Start Landing Style ======================================== */
+.landingpage_align
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: #ececec;
+}
+.landingpage_align .container 
+{
+   background: #fff;
+}
+.landingsection_style
+{
+   padding: 2rem 1rem;
+   display: flex;
+   align-items: center;
+}
+.landingfulltop_section h5
+{
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.5px;
+    margin-bottom: 2rem;
+}
+.landingfulltop_section h2
+{
+    font-size: 3rem;
+letter-spacing: 1px;
+text-align: center;
+line-height: 100%;
+font-weight: 500;
+margin-bottom: 3rem;
+text-transform: capitalize;
+}
+.landingright_style h4
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.landingright_style ul
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 3rem;
+}
+.landingright_style ul li{
+    list-style-position: inside;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 16x;
+    text-transform: capitalize;
+}
+.landingbtn {
+    background: #62b57d;
+    display: block;
+    padding: 2rem 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.landingbtn:hover
+{
+    background: #80db9e;
+    color: #fff;
+}
+.landingright_style p
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #868686;
+    letter-spacing: 0.5px;
+}
+@media (min-width:320px) and (max-width:575px)
+{
+    .landingfulltop_section h5
+    {
+        font-size: 0.8rem;
+    }
+    .landingfulltop_section h2 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 32px;
+        font-weight: 500;
+        margin-bottom: 3rem;
+        text-transform: capitalize;
+    }
+    .landingright_style
+    {
+        margin-top: 1rem;
+    }
+}
+@media (min-width:576px) and (max-width:767px)
+{
+    .landingfulltop_section h5
+    {
+        font-size: 1rem;
+    }
+    .landingfulltop_section h2 {
+        font-size: 2rem;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 40px;
+        font-weight: 500;
+        margin-bottom: 3rem;
+        text-transform: capitalize;
+    }
+    .landingright_style
+    {
+        margin-top: 1rem;
+    }
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    .landingright_style
+    {
+        margin-top: 1rem;
+    }
+    .landingimg_div
+    {
+        text-align: center;
+    }
+}
+/* ================================== End Landing Style ======================================== */
+
+/************************** infant style ***********************/
+ul.navbar-nav li a {
+	color: #fff !important;
+	text-transform: uppercase;
+}
+.btco-hover-menu .collapse ul > li:hover > a {
+	background: #1cbc9c !important;
+}
+.btco-hover-menu .collapse ul ul, .btco-hover-menu .collapse ul ul.dropdown-menu {
+	background: #2d3f50 !important;
+}
+.box-bg {
+	background: #fff;
+	min-height: 350px;
+	padding: 2em 0 2em 0;
+}
+.iconbox_desc_padding {
+	padding: 0 1em;
+}
+.morecase_desc p {
+	color: #fff;
+}
+.carosel-bg {
+	background-image: url(../images/about-bg.png) !important;
+}
+.text-section {
+	padding: 6rem 0;
+	
+	    background-image: url(../images/text-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-section h2, h4 {
+	text-align: center;
+	line-height: 30px;
+}
+
+/* ================================== End Landing Style ======================================== */

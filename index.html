@@ -13,18 +13,18 @@
     <link href="css/bootstrap-4-hover-navbar.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/all.min.css" rel="stylesheet" />
-
+    <link href="css/animate.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <!-- =============================== Start Header Section ========================================= -->
-    <header>
+    <header class="wow fadeInDown">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-6">
-                    <img src="images\logo.png" alt="Grow10x Logo" width="150" height="100" class="img-fluid" />
+                    <img src="images\logo.png" alt="Grow10x Logo" width="173" height="63" class="img-fluid" />
                 </div>
                 <div class="col-xl-8 col-6">
                     <nav class="navbar navbar-expand-md navbar-light  btco-hover-menu float-right mt-3">
@@ -34,8 +34,34 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home </a>
+                              
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Learn Outbound
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Courses</a></li>
+                                        <li><a class="dropdown-item" href="#">Books</a></li>
+                                        <li><a class="dropdown-item" href="#">Podcast</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Programs
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Consulting</a></li>
+                                        <li><a class="dropdown-item" href="#">Accelerate Team</a></li>                                        
+                                    </ul>
+                                </li>  
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Customers </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Get Started </a>
                                 </li>
                                 <!-- <li class="nav-item">
                                 <a class="nav-link" href="#">Features</a>
@@ -100,16 +126,24 @@
     <!-- =============================== End  Header Section ========================================= -->
 
     <!-- ================================== Start Banner Section ======================================= -->
-    <section id="banner">
+    <section id="banner" class="map-bg wow fadeInDown">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12">
-                    <img src="images\banner.jpg" alt="Grow10x Banner" class="img-fluid" width="100%" height="800" />
+                    <img src="images\banner.png" alt="Grow10x Banner" class="img-fluid" width="100%" height="800" />
                 </div>
             </div>
         </div>
     </section>
     <!-- ================================== End Banner Section ======================================= -->
+   <!-- ============================ start ======================= -->
+  <section class="text-section wow slideInLeft">
+  <div class="container">
+  <h2>DROW10x faster with better sales system</h2>
+  <h4>Learn how to increase your SaaS ARR<br> with scalable and  predictable growth engine.</h4>
+  </div>
+	</section>
+  <!-- ============================ End ======================= -->
    <!-- ==================================== Start How can we help Section ============================= -->
 <section id="howcan">
 <div class="container">
@@ -124,7 +158,9 @@
 
         <div class="col-md-12 sectionalign col-12">
             <div class="row">
+                
                  <div class="col-xl-4 col-12">
+                    <div class="box-bg">
                      <div class="iconstyle">
                         <i class="far fa-check-circle color1"></i>
                      </div>
@@ -134,7 +170,10 @@
                      <a href="#">Learn More</a>
                  </div>
                     </div>
+                    </div>
+                     
                     <div class="col-xl-4 col-12">
+                       <div class="box-bg">
                         <div class="iconstyle">
                            <i class="far fa-check-circle color2"></i>
                         </div>
@@ -144,18 +183,22 @@
                         <a href="#">Learn More</a>
                     </div>
                        </div>
+                       </div>
+                        
                        <div class="col-xl-4 col-12">
+                       <div class="box-bg">
                         <div class="iconstyle">
                            <i class="far fa-check-circle color3"></i>
                         </div>
                         <h2 class="iconbox_title">Outbound Online Course</h2>
-                        <p class="iconbox_desc">Learn successful strategies & hyper-tactical tips to make outbound successful: whether via our blog, podcas or paid online course
+                        <p class="iconbox_desc iconbox_desc_padding">Learn successful strategies & hyper-tactical tips to make outbound successful: whether via our blog, podcas or paid online course
                         </p>
                     <div class="learnbtn btncolor3">
                         <a href="#">Learn More</a>
                     </div>
                        </div>
             </div>
+             </div>
         </div>
         
     </div>
@@ -177,10 +220,12 @@
         </div>
     </div>
 </section>
+  
+  
    <!-- =================================== End More case studies section =============================== -->
 
    <!-- ================================== Start Carosel with Text Section ================================= -->
-<section id="carosel">
+<section id="carosel" class="carosel-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -275,7 +320,19 @@ Copyright &copy; 2019 Grow10x All rights reserved
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-4-hover-navbar.js"></script>
+    <script src="js/wow.js"></script>
+   
     <script>
+          wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
         $(window).scroll(function() {
             var scroll = $(window).scrollTop();
             //console.log(scroll);
