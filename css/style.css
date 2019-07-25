@@ -20,6 +20,11 @@ header {
 	background: #1cbc9c;
 	color: #fff;
 }
+.navbar-light .navbar-nav .nav-item:last-child .nav-link
+{
+    background: #e74c3c;
+    color: #fff;
+}
 /* ==================================== End Header Style ============================================ */
 /* =================================== Start Banner Style ========================================= */
 #banner {
@@ -413,6 +418,7 @@ text-transform: capitalize;
         text-align: center;
     }
 }
+<<<<<<< HEAD
 /* ================================== End Landing Style ======================================== */
 
 /************************** infant style ***********************/
@@ -452,4 +458,31 @@ ul.navbar-nav li a {
 	line-height: 30px;
 }
 
+=======
+/* =================================== End Responsive Styles ===================================== */
+
+/* ================================== Start Landing Style ======================================== */
+.landingsection_style
+{
+   padding: 2rem 1rem;
+   display: flex;
+   align-items: center;
+}
+.landingfulltop_section h5
+{
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.5px;
+    margin-bottom: 2rem;
+}
+.landingfulltop_section h2
+{
+    font-size: 3rem;
+letter-spacing: 1px;
+text-align: center;
+line-height: 100%;
+font-weight: 500;
+margin-bottom: 3rem;
+}
+>>>>>>> b8ab63d28973d5bfa2c027d52647ea8f32357675
 /* ================================== End Landing Style ======================================== */
